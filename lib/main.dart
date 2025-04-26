@@ -17,7 +17,7 @@ class CalculatorApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Simple Calculator',
+      title: 'Scientific Calculator',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: CalculatorScreen(lastValue: lastValue),
     );
@@ -230,7 +230,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               }).toList(),
             ),
           ),
-          ElevatedButton(
+          Elveated Button[
             onPressed: _onEqualsPressed,
             child: const Text('='),
           ),
